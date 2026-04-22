@@ -1,0 +1,44 @@
+# ==============================
+# C++ 编译产物（不上传）
+# ==============================
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+
+# VS 工程文件（不上传）
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.filters
+
+# Qt 编译文件
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.qmake.stash
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 只保留：源代码！
+# ==============================
+!*.cpp
+!*.h
+!*.hpp
+!.gitignore
